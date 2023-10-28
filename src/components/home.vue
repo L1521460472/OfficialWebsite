@@ -4,7 +4,7 @@
  * @Autor: lijiancong
  * @Date: 2022-08-10 18:18:24
  * @LastEditors: lijiancong
- * @LastEditTime: 2023-10-28 15:56:39
+ * @LastEditTime: 2023-10-28 16:56:13
 -->
 <script setup>
 import { ref } from 'vue'
@@ -22,7 +22,7 @@ const count = ref(100)
       <p>业务咨询：17722522568</p>
       <p>公司地址：广州市海珠区鼎新路108号安越楼24层</p>
     </div> -->
-    <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号；</span>
+    <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号</span>
   </div>
 </template>
 

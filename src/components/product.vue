@@ -4,7 +4,7 @@
  * @Autor: lijiancong
  * @Date: 2022-08-10 18:18:24
  * @LastEditors: lijiancong
- * @LastEditTime: 2023-10-28 15:55:36
+ * @LastEditTime: 2023-10-28 17:17:29
 -->
 <template>
   <div class="main">
@@ -96,7 +96,7 @@
         <p>业务咨询：17722522568</p>
         <p>公司地址：广州市海珠区鼎新路108号安越楼24层</p>
       </div> -->
-      <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号；</span>
+      <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号</span>
     </div>
   </div>
 </template>
@@ -125,12 +125,12 @@ const count = ref(100)
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 20%;
+  padding: 0 15%;
   box-sizing: border-box;
 }
 .banner-box{
   width: 100%;
-  height: 250px;
+  height: 300px;
   display: flex;
   border: 2px solid #e5e5e5;
   border-radius: 8px;
@@ -142,7 +142,7 @@ const count = ref(100)
 .banner-box-left{
   width: 50%;
   height: 100%;
-  padding: 10px;
+  padding: 30px;
   box-sizing: border-box;
 }
 .banner-box-right{
@@ -158,9 +158,15 @@ const count = ref(100)
 .banner-box-img{
   width: 100%;
   height: 100%;
-  padding: 10px;
+  padding: 30px;
   box-sizing: border-box;
   display: flex;
+}
+.banner-box-left-img img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
 }
 .banner-box-img img{
   display: block;
@@ -175,7 +181,7 @@ const count = ref(100)
   border-radius: 6px;
 }
 .lbox{
-  padding: 10px 20px;
+  padding: 36px 20px;
   box-sizing: border-box;
 }
 .banner-box-conter{

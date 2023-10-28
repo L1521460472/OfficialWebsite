@@ -4,7 +4,7 @@
  * @Autor: lijiancong
  * @Date: 2022-08-10 18:18:24
  * @LastEditors: lijiancong
- * @LastEditTime: 2023-10-28 14:19:32
+ * @LastEditTime: 2023-10-28 17:00:49
 -->
 <script setup>
 import { ref } from 'vue'
@@ -15,11 +15,13 @@ const count = ref(100)
 <template>
   <div class="main">
     <div class="title">
-      <span style="color: #fff;font-size: 36px;font-weight: 600;margin-bottom: 10px;">选作科技简介</span>
+      <span style="color: #fff;font-size: 36px;font-weight: 600;margin-bottom: 10px;">幻数简介</span>
       <p style="color: #fff;">OPRPORATE VALUES </p>
     </div>
     <div class="banner">
-      做一款有温度的产品。
+      幻数，是一款自动化数据迁移和处理工具，无须集成、API或复杂的工作流构建器，只需几秒钟设置即可实现自动化重复性任务。
+
+      不依赖任何程序，随时随地可以在您工作时加快重复性任务，例如消息发送、数据录入、数据填充等。
     </div>
   </div>
   <div class="footer">
@@ -27,7 +29,7 @@ const count = ref(100)
       <p>业务咨询：17722522568</p>
       <p>公司地址：广州市海珠区鼎新路108号安越楼24层</p>
     </div> -->
-    <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号；</span>
+    <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号</span>
   </div>
 </template>
 
@@ -37,6 +39,7 @@ const count = ref(100)
   position: relative;
   height: calc(100vh - 150px);
   background: url(../assets/位图.png) center;
+  overflow-y: auto;
 }
 .title {
   width: 100%;
@@ -55,8 +58,8 @@ const count = ref(100)
   bottom: 0;
   margin: auto;
   width: 80%;
-  height: 400px;
-  padding: 74px 68px;
+  height: 300px;
+  padding: 44px 68px;
   box-sizing: border-box;
   background-color: rgba(255, 255, 255, .2);
   color: #fff;
@@ -67,7 +70,8 @@ const count = ref(100)
 .footer{
   width: 100%;
   height: 60px;
-  position: relative;
+  position: fixed;
+  bottom: 0;
   background-color: #242A32;
   color: #fff;
   display: flex;

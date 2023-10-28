@@ -4,7 +4,7 @@
  * @Autor: lijiancong
  * @Date: 2022-08-10 18:18:24
  * @LastEditors: lijiancong
- * @LastEditTime: 2023-10-28 16:17:53
+ * @LastEditTime: 2023-10-28 16:54:47
 -->
 <script setup>
 import { ref } from 'vue'
@@ -36,7 +36,7 @@ const count = ref(100)
       <p>业务咨询：17722522568</p>
       <p>公司地址：广州市海珠区鼎新路108号安越楼24层</p>
     </div> -->
-    <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号；</span>
+    <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号</span>
   </div>
 </template>
 
@@ -45,6 +45,7 @@ const count = ref(100)
   width: 100%;
   height: calc(100vh - 150px);
   background-color: #EBF3FF;
+  overflow-y: auto;
 }
 .title {
   width: 100%;
@@ -105,7 +106,8 @@ const count = ref(100)
 .footer{
   width: 100%;
   height: 60px;
-  position: relative;
+  position: fixed;
+  bottom: 0;
   background-color: #242A32;
   color: #fff;
   display: flex;
