@@ -4,16 +4,16 @@
  * @Autor: lijiancong
  * @Date: 2022-08-06 14:50:54
  * @LastEditors: lijiancong
- * @LastEditTime: 2022-08-12 18:17:14
+ * @LastEditTime: 2023-10-28 16:06:22
 -->
 <template>
   <div class="common-layout">
     <el-container>
       <el-header :class="{headerBg:(key == '/product' || key == '/culture')}">
-        <div class="logo"><img src="../assets/PowerDatas.png" alt="PowerDatas"></div>
+        <div class="logo"><img src="../assets/logo_wite.png" alt="幻数"></div>
         <div style="height: 100%;display: flex;align-items: center;">
           <Menu></Menu>
-        <el-button style="margin-right: 60px;" type="primary" @click="centerDialogVisible = true">产品体验</el-button>
+        <el-button style="margin-right: 60px;" type="primary" @click="handleDown">免费下载</el-button>
         </div>
       </el-header>
       <el-main>
@@ -71,7 +71,11 @@ const form = reactive({
   email: '',
   verificationCode: '',
 })
+//
 const centerDialogVisible = ref(false)
+const handleDown = () => {
+  window.open('https://magicdatas.com/invite')
+}
 const onSubmit = () => {
   // console.log('submit!')
   instance.$message.success('我们已经收到您提交的信息，正在尽快为您处理.')
@@ -116,7 +120,7 @@ watch(
 }
 .logo{
   width: 200px;
-  height: 50%;
+  height: 80%;
   padding: 5px 20px;
   box-sizing: border-box;
   cursor: pointer;

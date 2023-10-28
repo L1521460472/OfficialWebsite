@@ -4,7 +4,7 @@
  * @Autor: lijiancong
  * @Date: 2022-08-10 18:18:24
  * @LastEditors: lijiancong
- * @LastEditTime: 2022-08-12 09:23:07
+ * @LastEditTime: 2023-10-28 15:55:36
 -->
 <template>
   <div class="main">
@@ -13,37 +13,90 @@
       <p style="color: #666666;">PRODUCT BRIEF</p>
     </div>
     <div class="banner">
-      <div class="banner-left">
-        <div class="list">
-          <img src="../assets/位图(3).png" alt="">
-          <div class="list-title">Powerdatas数据分析</div>
-          <div class="list-text">数字化底座产品，跨平台整合全渠道客户数据，输出精准客户洞察，指导营销决策并高实时性地支撑用户运营，实现企业数据资产的高效变现与增值，让您快速成为数智化转型的践行者</div>
+      <div class="banner-box banner-boxs">
+        <div class="banner-box-left lbox">
+          <div class="banner-box-title">随时随地自动化</div>
+          <div class="banner-box-title">您工作中出现的重复性任务</div>
+          <div class="banner-box-list">
+            <div class="banner-box-text">
+              <div class="dic"></div> 无需集成任何API
+            </div>
+            <div class="banner-box-text">
+              <div class="dic"></div> 不依赖任何程序
+            </div>
+            <div class="banner-box-text">
+              <div class="dic"></div> 只需几秒钟设置
+            </div>
+            <div class="banner-box-text">
+              <div class="dic"></div> 5倍以上时间节省
+            </div>
+          </div>
         </div>
-        <div class="list">
-          <img src="../assets/位图(1).png" alt="">
-          <div class="list-title">Powerdatas数据采集</div>
-          <div class="list-text">提供埋点数据采集能力。并针对埋点数据展开分析与洞察，获得一体化全链路数据完成采集并分析的体验，助力广告投放。</div>
+        <div class="banner-box-right">
+          <div class="banner-box-img">
+            <!-- <img src="../assets/m_email.gif" alt=""> -->
+            <video src="../assets/M宣传视频.mp4" controls autoplay loop poster='../assets/m_email.gif'></video>
+          </div>
         </div>
       </div>
-      <div class="banner-right">
-        <div class="list">
-          <img src="../assets/位图(2).png" alt="">
-          <div class="list-title">Powerdatas智能营销</div>
-          <div class="list-text">MA流程自动化的客户全生命周期管理，让营销部门面对数以亿计的客户/会员群体，真正拥有了精细化运营和增长的核心力量。</div>
+      <div class="banner-box">
+        <div class="banner-box-left">
+          <div class="banner-box-left-img">
+            <img src="../assets/m_email.gif" alt="">
+          </div>
         </div>
-        <div class="list">
-          <img src="../assets/位图4.png" alt="">
-          <div class="list-title">Powerdatas客群画像</div>
-          <div class="list-text">对多堆度海量用户数据进行整理和分析后形成的精准用户洞察。我们都知道客户究竟是什么样的人，完整还原每一位真实客户。</div>
+        <div class="banner-box-right">
+          <div class="banner-box-conter">
+            <div class="banner-box-title">自动填充您的模板和消息</div>
+            <div class="banner-box-list">
+              <div class="banner-box-texts">
+                <span>为什么要多次键入消息或电子邮件，现在，你可以像魔术一样召唤你的模板，并自动填充每个收件人的个人信息。</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner-box">
+        <div class="banner-box-left">
+          <div class="banner-box-conter">
+            <div class="banner-box-title">将线索自动填充您的CRM</div>
+            <div class="banner-box-list">
+              <div class="banner-box-texts">
+                <span>您现在还在复制粘贴线索信息？现在，可以无缝地在任何CRM平台上一键填充表单，解放您的双手。</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="banner-box-right">
+          <div class="banner-box-img">
+            <img src="../assets/m_form.gif" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="banner-box">
+        <div class="banner-box-left">
+          <div class="banner-box-left-img">
+            <img src="../assets/m_export.gif" alt="">
+          </div>
+        </div>
+        <div class="banner-box-right">
+          <div class="banner-box-conter">
+            <div class="banner-box-title">自动填充电子表格</div>
+            <div class="banner-box-list">
+              <div class="banner-box-texts">
+                <span>不要花费数小时将数据复制粘贴到工作表中，使用幻数，您只需要轻轻一指，即可自动填写姓名，职务，联系信息等。</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
     <div class="footer">
-      <div class="fleft">
+      <!-- <div class="fleft">
         <p>业务咨询：17722522568</p>
         <p>公司地址：广州市海珠区鼎新路108号安越楼24层</p>
-      </div>
-      <span> © 深圳选作科技有限公司 &nbsp;&nbsp;  2013-2-21 粤ICP备13089478号</span>
+      </div> -->
+      <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号；</span>
     </div>
   </div>
 </template>
@@ -55,8 +108,9 @@ const count = ref(100)
 <style scoped>
 .main {
   width: 100%;
-  /* height: calc(100vh - 120px); */
+  height: calc(100vh - 150px);
   background-color: #EBF3FF;
+  overflow-y: auto;
 }
 .title {
   width: 100%;
@@ -70,46 +124,107 @@ const count = ref(100)
 .banner{
   width: 100%;
   display: flex;
-}
-.banner-left{
-  width: 50%;
-  padding:  30px 100px 30px 220px;
+  flex-direction: column;
+  padding: 0 20%;
   box-sizing: border-box;
 }
-.banner-right{
+.banner-box{
+  width: 100%;
+  height: 250px;
+  display: flex;
+  border: 2px solid #e5e5e5;
+  border-radius: 8px;
+  margin-bottom: 32px;
+}
+.banner-boxs{
+  border: none;
+}
+.banner-box-left{
   width: 50%;
-  padding:  40px 240px 30px 80px;
+  height: 100%;
+  padding: 10px;
   box-sizing: border-box;
 }
-.list{
-    margin-bottom: 80px;
+.banner-box-right{
+  width: 50%;
+  height: 100%;
 }
-.list-title{
-  width: 360px;
-  height: 100px;
-  line-height: 100px;
-  color: #2384F7;
-  font-size: 36px;
-  border-bottom: 2px solid #2384F7;
-  margin-bottom: 30px;
+.banner-box-left-img{
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
 }
-.list-text{
-  /* width: 500px; */
-  padding: 15px;
-  background-color: #2384F7;
-  color: #fff;
-  font-size: 12px;
+.banner-box-img{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+}
+.banner-box-img img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.banner-box-img video{
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 6px;
+}
+.lbox{
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+.banner-box-conter{
+  width: 100%;
+  height: 100%;
+  padding: 32px 10px;
+  box-sizing: border-box;
+}
+.banner-box-title{
+  height: 50px;
+  line-height: 50px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #000;
+}
+.banner-box-list{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 25px;
+}
+.banner-box-text{
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+}
+.banner-box-texts{
+  padding-right: 60px;
+  line-height: 32px;
+  box-sizing: border-box;
+}
+.dic{
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border-radius: 6px;
+  background-color: #999999;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 .footer{
   width: 100%;
-  height: 120px;
-  position: relative;
+  height: 60px;
+  position: fixed;
+  bottom: 0;
   background-color: #242A32;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 36px;
   box-sizing: border-box;
 }
 .fleft{

@@ -4,7 +4,7 @@
  * @Autor: lijiancong
  * @Date: 2022-08-10 18:18:24
  * @LastEditors: lijiancong
- * @LastEditTime: 2022-08-12 15:14:41
+ * @LastEditTime: 2023-10-28 16:17:53
 -->
 <script setup>
 import { ref } from 'vue'
@@ -20,7 +20,7 @@ const count = ref(100)
     </div>
     <div class="banner">
       <el-row :gutter="60">
-        <el-col :span="8"><div class="list"><img src="../assets/客户第一.png" alt=""><div class="list-text">客户第一</div></div></el-col>
+        <el-col :span="8"><div class="list"><img src="../assets/客户第一.png" alt=""><div class="list-text">用户至上</div></div></el-col>
         <el-col :span="8"><div class="list"><img src="../assets/相互成就.png" alt=""><div class="list-text">相互成就</div></div></el-col>
         <el-col :span="8"><div class="list"><img src="../assets/诚信正直.png" alt=""><div class="list-text">诚信正直</div></div></el-col>
       </el-row>
@@ -32,18 +32,18 @@ const count = ref(100)
     </div>
   </div>
   <div class="footer">
-    <div class="fleft">
+    <!-- <div class="fleft">
       <p>业务咨询：17722522568</p>
       <p>公司地址：广州市海珠区鼎新路108号安越楼24层</p>
-    </div>
-    <span> © 深圳选作科技有限公司 &nbsp;&nbsp;  2013-2-21 粤ICP备13089478号</span>
+    </div> -->
+    <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号；</span>
   </div>
 </template>
 
 <style scoped>
 .main {
   width: 100%;
-  height: calc(100vh - 210px);
+  height: calc(100vh - 150px);
   background-color: #EBF3FF;
 }
 .title {
@@ -104,14 +104,13 @@ const count = ref(100)
 }
 .footer{
   width: 100%;
-  height: 120px;
+  height: 60px;
   position: relative;
   background-color: #242A32;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 36px;
   box-sizing: border-box;
 }
 .fleft{

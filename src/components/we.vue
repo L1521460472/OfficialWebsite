@@ -4,7 +4,7 @@
  * @Autor: lijiancong
  * @Date: 2022-08-10 18:18:24
  * @LastEditors: lijiancong
- * @LastEditTime: 2022-08-12 09:23:59
+ * @LastEditTime: 2023-10-28 14:19:32
 -->
 <script setup>
 import { ref } from 'vue'
@@ -19,15 +19,15 @@ const count = ref(100)
       <p style="color: #fff;">OPRPORATE VALUES </p>
     </div>
     <div class="banner">
-        致景科技成立于2013年12月，是领先的纺织产业互联网企业，国家高新技术企业。旗下拥有“百布”、“全布”、“天工”、“飞梭智纺”、“致景金条”、“致景智慧仓物流园”、“致景纺织智造园”等业务板块，致力于通过大数据、云计算、物联网等新一代信息技术，全面打通纺织服装行业的信息流、物流和资金流，帮助行业实现协同化、柔性化、智能化的升级，构建纺织服装纵向一体化的数智化综合服务平台。
+      做一款有温度的产品。
     </div>
   </div>
   <div class="footer">
-    <div class="fleft">
+    <!-- <div class="fleft">
       <p>业务咨询：17722522568</p>
       <p>公司地址：广州市海珠区鼎新路108号安越楼24层</p>
-    </div>
-    <span> © 深圳选作科技有限公司 &nbsp;&nbsp;  2013-2-21 粤ICP备13089478号</span>
+    </div> -->
+    <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号；</span>
   </div>
 </template>
 
@@ -35,7 +35,7 @@ const count = ref(100)
 .main {
   width: 100%;
   position: relative;
-  height: calc(100vh - 210px);
+  height: calc(100vh - 150px);
   background: url(../assets/位图.png) center;
 }
 .title {
@@ -66,14 +66,13 @@ const count = ref(100)
 }
 .footer{
   width: 100%;
-  height: 120px;
+  height: 60px;
   position: relative;
   background-color: #242A32;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 36px;
   box-sizing: border-box;
 }
 .fleft{

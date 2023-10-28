@@ -4,15 +4,15 @@
  * @Autor: lijiancong
  * @Date: 2022-08-10 18:24:57
  * @LastEditors: lijiancong
- * @LastEditTime: 2022-08-11 10:25:53
+ * @LastEditTime: 2023-10-27 11:58:28
 -->
 <template>
   <div style="height: 60%;margin-right: 40px;">
     <el-menu
     :default-active="activeIndex"
     class="el-menu-demo"
-    text-color="#fff"
-    active-text-color="#fff"
+    text-color="#409eff"
+    active-text-color="#2d8cf0"
     mode="horizontal"
     @select="handleSelect"
   >

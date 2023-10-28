@@ -4,7 +4,7 @@
  * @Autor: lijiancong
  * @Date: 2022-08-10 18:18:24
  * @LastEditors: lijiancong
- * @LastEditTime: 2022-08-12 09:20:55
+ * @LastEditTime: 2023-10-28 15:56:39
 -->
 <script setup>
 import { ref } from 'vue'
@@ -15,14 +15,14 @@ const count = ref(100)
 <template>
   <div class="main">
     <img src="../assets/位图.png" alt="">
-    <div class="main-text">数据造就美好未来</div>
+    <div class="main-text">幻数，让你随时随地自动化重复性任务</div>
   </div>
   <div class="footer">
-    <div class="fleft">
+    <!-- <div class="fleft">
       <p>业务咨询：17722522568</p>
       <p>公司地址：广州市海珠区鼎新路108号安越楼24层</p>
-    </div>
-    <span> © 深圳选作科技有限公司 &nbsp;&nbsp;  2013-2-21 粤ICP备13089478号</span>
+    </div> -->
+    <span> Copyright © 2023 深圳选作科技有限公司 粤ICP备2023103183号；</span>
   </div>
 </template>
 
@@ -30,7 +30,7 @@ const count = ref(100)
 .main {
   position: relative;
   width: 100%;
-  height: calc(100vh - 210px);
+  height: calc(100vh - 150px);
   /* background: url(../assets/位图.png) center; */
 }
 .main img{
@@ -50,20 +50,19 @@ const count = ref(100)
   bottom: 0;
   margin: auto;
   color: #fff;
-  font-size: 120px;
+  font-size: 50px;
   letter-spacing: 20px;
   font-weight: 600;
 }
 .footer{
   width: 100%;
-  height: 120px;
+  height: 60px;
   position: relative;
   background-color: #020408;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 36px;
   box-sizing: border-box;
 }
 .fleft{
